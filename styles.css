@@ -1,0 +1,118 @@
+header
+{color: #10c72b;
+	font-size: 2.2em;
+	font-family: 'Open Sans',sans-serif;
+   text-align: center;
+   text-emphasis: none;
+   text-decoration: none;
+}
+body.h3{
+	color: #10c72b;
+}
+p{
+    text-align: justify;
+    font-size: medium;
+    color: rgba(1, 14, 28, 0.774);
+}
+hr{
+	color: #10c72b;
+height: 10px;
+	width: 100%;
+}
+
+/*Service Section*/
+/*Service Section*/
+.service-swipe {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(rgba(179, 164, 164, 0),rgb(231, 224, 231)),url("");
+	background-size: cover;
+	background-attachment: fixed;
+}
+.service-swipe .s-card img {
+	width: 50px;
+}
+
+.service-swipe .t-card img {
+	width: 5px;
+}
+.service-swipe a {
+	text-decoration: none;
+	color: #cc0368;
+	padding: 0;
+	margin: 40px 10px;
+}
+.service-swipe .s-card {
+	display: flex;
+	width: 140px;
+	height: 130px;
+	box-shadow: inset 0 0 10px rgb(128, 125, 128),					0 0 50px rgba(15, 15, 15, 0.911);
+	border-radius: 5px;
+	cursor: pointer;
+	transition-duration: .5s;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+.service-swipe .s-card p {
+	text-decoration: none;
+    text-align:right;
+    color: #ea0884;
+    
+}
+.service-swipe .s-card:hover {
+	box-shadow: 0 0 50px rgba(156, 156, 156, 0.973);
+	transform: translateY(-10px);
+}
+
+
+
+.service-swipe .t-card {
+	
+	display:flex;
+
+	flex-direction: ;
+	text-decoration: none;
+	justify-content: center;
+	padding: 10px;
+	
+	width: 90px;
+	height: 50px;
+	box-shadow: inset 0 0 50px rgba(255,255,255,0.05),
+					0 0 50px rgba(0,0,0,0.8);
+	border-radius: 50px;
+	cursor: pointer;
+	transition-duration: .5s;
+}
+.service-swipe .t-card p {
+	text-decoration: none;
+    text-align:center;
+    color: #dd067cd7;
+    
+}
+.service-swipe .t-card:hover {
+	box-shadow: 0 0 50px rgba(193, 193, 193, 0.8);
+	transform: translateY(-10px);
+}
+
+
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+@media screen and (max-width: 960px)
+.left-col {
+    width: 20%;
+    text-align: center;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 10;
+    padding: 10;
+}
